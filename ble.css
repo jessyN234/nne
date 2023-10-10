@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    font-family: 'Poppins' sans-serif;
+
+}
+    
+
+/* this is for the header*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+nav button {
+    padding: 15px;
+    background: blue;
+    color: white;
+    font: size 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 15px auto;
+    border-radius: 8px;
+    align-items: center;
+}
+
+/* banner section */
+.banner{
+    background-position:100px;
+    padding: 180px 0px;
+    justify-content: center;
+}
+.banner h1{
+    align-items: center;
+    padding: 180px;
+    justify-items: center;
+
+
+}
+
+
+
+
+
+ 
